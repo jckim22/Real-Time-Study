@@ -10,7 +10,6 @@ void merge(int* arr, int m,int middle, int n) {
 	int second = middle + 1;
 	int tmp = m;
 
-
 	while (first <= middle && second <= n) {
 		if (arr[first] < arr[second]) {
 			sorted[tmp] = arr[first];
@@ -66,7 +65,4 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		printf("%d ", arr[i]);
 	}
-
-
-
 }
